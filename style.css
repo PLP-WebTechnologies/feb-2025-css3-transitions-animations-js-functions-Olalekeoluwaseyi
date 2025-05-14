@@ -1,0 +1,43 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Image styling */
+  .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Animation for image */
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .animate {
+    animation: bounce 1s infinite;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
